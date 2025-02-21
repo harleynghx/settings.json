@@ -13,6 +13,10 @@
     "editor.renderWhitespace": "selection",                                                          //? Render whitespace characters ~ {none, boundary, selection, all}
     "editor.guides.indentation": true,                                                               //? Show indentation guides ~ {true, false}
 
+    //? Terminal Appearance & Behavior
+    "terminal.integrated.fontFamily": "Cascadia Code, Consolas, 'Courier New', monospace, 'Droid Sans Fallback'", 
+    "terminal.integrated.fontSize": 14,
+
     //? FORMATTING
     "[c]": {                                                                                         //? 42 C formatter
     "editor.defaultFormatter": "keyhr.42-c-format"
