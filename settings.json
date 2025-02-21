@@ -1,0 +1,20 @@
+{
+    "files.autoSave": "afterDelay",
+
+    //? Theme
+    "editor.fontFamily": "Cascadia Code, Consolas, 'Courier New', monospace, 'Droid Sans Fallback'", //? Font, will use the next one if the first one is not available
+    "editor.fontLigatures": false,                                                                   //? Ligatures eg. !=, ==, <=, >=, etc. ~ {true, false}             
+    "editor.fontSize": 15,
+
+    //? Editor Appearance & Behavior
+    "workbench.colorTheme": "Eva Dark Italic Bold",                                                  //? Theme for the editor
+    "workbench.iconTheme": "material-icon-theme",                                                    //? Icon theme for the workbench
+    "workbench.productIconTheme": "fluent-icons",                                                    //? Icon theme for the product
+    "editor.renderWhitespace": "selection",                                                          //? Render whitespace characters ~ {none, boundary, selection, all}
+    "editor.guides.indentation": true,                                                               //? Show indentation guides ~ {true, false}
+
+    //? FORMATTING
+    "[c]": {                                                                                         //? 42 C formatter
+    "editor.defaultFormatter": "keyhr.42-c-format"
+    },
+}
